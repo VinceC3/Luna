@@ -1,20 +1,19 @@
 {
-    "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https://raw.githubusercontent.com/cardanians/adapools.org/master/example-meta.json",
     "info": {
-        "url_png_icon_64x64": "https://github.com/VinceC3/Luna/blob/main/favicon.ico",
-        "url_png_logo": "https://github.com/VinceC3/Luna/blob/main/001GdlHD_400x400.png",
-        "location": "...",
+        "url_png_icon_64x64": "https://github.com/VinceC3/Luna/blob/main/favicon.ico?raw=true",
+        "url_png_logo": "https://github.com/VinceC3/Luna/blob/main/001GdlHD_400x400.png?raw=true",
+        "location": "",
         "social": {
-            "twitter_handle": "LunaNusa_Pool",
+            "twitter_handle": "",
             "telegram_handle": "",
             "facebook_handle": "",
             "youtube_handle": "",
             "twitch_handle": "",
-            "discord_handle": "Blackfyre#6398",
+            "discord_handle": "https://discord.gg/VKbEptqa4M",
             "github_handle": ""
         },
         "company": {
-            "name": "Luna Nusa Staking Pool",
+            "name": "LunaNusa_Pool",
             "addr": "",
             "city": "",
             "country": "",
@@ -22,40 +21,13 @@
             "vat_id": ""
         },
         "about": {
-            "me": "...",
-            "server": "...",
-            "company": "..."
+            "me": "Single pool operater. Try to bring the cardano World to the Luna Nusa StakingPool",
+            "server": "Several all over the world",
+            "company": ""
         },
-        "rss": ""
-    },
     "my-pool-ids": {
-        "0": "0f292fcaa02b8b2f9b3c8f9fd8e0bb21abedb692a6d5058df3ef2735",
+        "0": "2a7a12c53399bc2b24c73d656b36843523e776ce4dc96ee107d6037bc",
         "1": ""
-    },
-    "when-satured-then-recommend": {
-        "0": "0f292fcaa02b8b2f9b3c8f9fd8e0bb21abedb692a6d5058df3ef2735",
-        "1": ""
-    },
-    "telegram-admin-handle": {
-        "0": ""
-    },
-    "adapools_ext": {
-        "prometheus": {
-            "0": {
-                "name": "relay 1 eu",
-                "type": "relay",
-                "key": "example_get_own_on_adapools.org/connect"
-            },
-            "1": {
-                "name": "relay 2 usa",
-                "type": "relay",
-                "key": "example_get_own_on_adapools.org/connect"
-            },
-            "2": {
-                "name": "block producer home",
-                "type": "bp",
-                "key": "example_get_own_on_adapools.org/connect"
-            }
-        }
+      }
     }
 }
